@@ -1,0 +1,276 @@
+[21-Aug-2021 03:18:41 UTC] PHP Warning:  include(header): failed to open stream: No such file or directory in /home/j9bw2kl8yrd9/public_html/booq_admin/users/dashboard.php on line 3
+[21-Aug-2021 03:18:41 UTC] PHP Warning:  include(header): failed to open stream: No such file or directory in /home/j9bw2kl8yrd9/public_html/booq_admin/users/dashboard.php on line 3
+[21-Aug-2021 03:18:41 UTC] PHP Warning:  include(): Failed opening 'header' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/j9bw2kl8yrd9/public_html/booq_admin/users/dashboard.php on line 3
+[27-Aug-2021 09:03:25 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/j9bw2kl8yrd9/public_html/loyaleadsta2/users/dashboard.php on line 62
+[27-Aug-2021 09:03:26 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/j9bw2kl8yrd9/public_html/loyaleadsta2/users/dashboard.php on line 62
+[06-Oct-2021 22:20:23 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[06-Oct-2021 22:20:23 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[06-Oct-2021 22:28:25 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[06-Oct-2021 22:28:25 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 08:51:46 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 08:51:46 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 09:07:32 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 09:07:32 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 09:13:04 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 09:13:04 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 11:45:26 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 11:45:26 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 12:01:36 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 12:01:36 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 12:06:01 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 12:06:01 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 12:06:37 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 12:06:37 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 12:55:17 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 12:55:17 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 12:59:08 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 12:59:08 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 13:11:22 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 13:11:22 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 13:13:57 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 13:13:57 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 13:14:50 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 13:14:50 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 13:16:56 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 13:16:56 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 13:21:32 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 13:21:32 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 13:22:28 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 13:22:28 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 13:29:57 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 13:29:57 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 13:41:02 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 13:41:02 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 13:41:21 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 13:41:21 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 13:41:39 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 13:41:39 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 13:42:04 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 13:42:04 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 13:45:29 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 13:45:29 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 14:00:31 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 14:00:31 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 14:26:05 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 14:26:05 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 15:01:25 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 15:01:25 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 15:35:41 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[07-Oct-2021 15:35:41 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[08-Oct-2021 07:56:02 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[08-Oct-2021 07:56:02 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[08-Oct-2021 13:34:59 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[08-Oct-2021 13:34:59 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[08-Oct-2021 14:08:17 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[08-Oct-2021 14:08:17 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[08-Oct-2021 14:11:09 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[08-Oct-2021 14:11:09 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[11-Oct-2021 09:05:06 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[11-Oct-2021 09:05:06 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[11-Oct-2021 10:11:10 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[11-Oct-2021 10:11:10 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[12-Oct-2021 15:47:01 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[12-Oct-2021 15:47:01 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[12-Oct-2021 15:48:57 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[12-Oct-2021 15:48:57 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/logout.php on line 273
+[13-Oct-2021 21:13:47 Asia/Manila] PHP Notice:  Undefined variable: count2 in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/fetch_history_logs.php on line 78
+[13-Oct-2021 21:13:47 Asia/Manila] PHP Notice:  Undefined variable: count in /home/j9bw2kl8yrd9/public_html/loyaleadsta_update/auth/users/fetch_history_logs.php on line 89
+[19-Oct-2021 15:04:39 Asia/Manila] PHP Notice:  Undefined index: id in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 266
+[19-Oct-2021 15:04:39 Asia/Manila] PHP Notice:  Undefined index: id in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 269
+[19-Oct-2021 15:04:39 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[19-Oct-2021 15:04:39 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[20-Oct-2021 11:02:44 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[20-Oct-2021 11:02:44 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[20-Oct-2021 11:22:31 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[20-Oct-2021 11:22:31 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[20-Oct-2021 11:24:10 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[20-Oct-2021 11:24:10 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[20-Oct-2021 14:48:19 Asia/Manila] PHP Notice:  Undefined index: id in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 266
+[20-Oct-2021 14:48:19 Asia/Manila] PHP Notice:  Undefined index: id in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 269
+[20-Oct-2021 14:48:19 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[20-Oct-2021 14:48:19 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[20-Oct-2021 15:12:54 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[20-Oct-2021 15:12:54 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[25-Oct-2021 11:57:40 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[25-Oct-2021 11:57:40 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[25-Oct-2021 12:26:34 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[25-Oct-2021 12:26:34 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[25-Oct-2021 12:31:18 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[25-Oct-2021 12:31:18 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[25-Oct-2021 04:39:18 UTC] PHP Notice:  Undefined variable: con in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/sales_agents.php on line 69
+[25-Oct-2021 04:39:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/sales_agents.php on line 69
+[25-Oct-2021 04:39:18 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/sales_agents.php on line 69
+[25-Oct-2021 04:40:31 UTC] PHP Notice:  Undefined variable: con in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/sales_agents.php on line 289
+[25-Oct-2021 04:40:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/sales_agents.php on line 289
+[25-Oct-2021 04:40:31 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/sales_agents.php on line 289
+[25-Oct-2021 12:54:00 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[25-Oct-2021 12:54:00 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[25-Oct-2021 14:24:19 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[25-Oct-2021 14:24:19 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[25-Oct-2021 14:30:51 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[25-Oct-2021 14:30:51 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[25-Oct-2021 14:31:20 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[25-Oct-2021 14:31:20 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[25-Oct-2021 14:31:52 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[25-Oct-2021 14:31:52 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[25-Oct-2021 14:33:15 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[25-Oct-2021 14:33:15 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[25-Oct-2021 15:10:42 Asia/Manila] PHP Notice:  Undefined variable: count2 in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/fetch_history_logs.php on line 78
+[25-Oct-2021 15:10:42 Asia/Manila] PHP Notice:  Undefined variable: count in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/fetch_history_logs.php on line 89
+[27-Oct-2021 19:26:05 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[27-Oct-2021 19:26:05 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[27-Oct-2021 22:25:43 Asia/Manila] PHP Notice:  Undefined variable: count2 in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/fetch_history_logs.php on line 78
+[27-Oct-2021 22:25:43 Asia/Manila] PHP Notice:  Undefined variable: count in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/fetch_history_logs.php on line 89
+[27-Oct-2021 22:56:33 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[27-Oct-2021 22:56:33 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[28-Oct-2021 00:35:13 Asia/Manila] PHP Notice:  Undefined index: id in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 266
+[28-Oct-2021 00:35:13 Asia/Manila] PHP Notice:  Undefined index: id in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 269
+[28-Oct-2021 00:35:13 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[28-Oct-2021 00:35:13 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[28-Oct-2021 08:36:53 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[28-Oct-2021 08:36:53 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[28-Oct-2021 09:16:48 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[28-Oct-2021 09:16:48 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[28-Oct-2021 12:03:05 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[28-Oct-2021 12:03:05 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[02-Nov-2021 11:35:30 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[02-Nov-2021 11:35:30 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[02-Nov-2021 11:36:14 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[02-Nov-2021 11:36:14 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[02-Nov-2021 12:51:09 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[02-Nov-2021 12:51:09 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[04-Nov-2021 11:45:23 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[04-Nov-2021 11:45:23 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[08-Nov-2021 20:57:59 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[08-Nov-2021 20:57:59 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[08-Nov-2021 20:59:30 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[08-Nov-2021 20:59:30 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[08-Nov-2021 21:03:36 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[08-Nov-2021 21:03:36 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[08-Nov-2021 21:45:15 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[08-Nov-2021 21:45:15 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[25-Nov-2021 12:48:06 Asia/Manila] PHP Notice:  Undefined index: id in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 266
+[25-Nov-2021 12:48:06 Asia/Manila] PHP Notice:  Undefined index: id in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 269
+[25-Nov-2021 12:48:06 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[25-Nov-2021 12:48:06 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[25-Nov-2021 13:03:45 Asia/Manila] PHP Notice:  Undefined index: id in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 266
+[25-Nov-2021 13:03:45 Asia/Manila] PHP Notice:  Undefined index: id in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 269
+[25-Nov-2021 13:03:45 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[25-Nov-2021 13:03:45 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[25-Nov-2021 13:04:54 Asia/Manila] PHP Notice:  Undefined index: id in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 266
+[25-Nov-2021 13:04:54 Asia/Manila] PHP Notice:  Undefined index: id in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 269
+[25-Nov-2021 13:04:54 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[25-Nov-2021 13:04:54 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[25-Nov-2021 13:18:36 Asia/Manila] PHP Notice:  Undefined index: id in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 266
+[25-Nov-2021 13:18:36 Asia/Manila] PHP Notice:  Undefined index: id in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 269
+[25-Nov-2021 13:18:36 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[25-Nov-2021 13:18:36 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[09-Dec-2021 13:01:59 Asia/Manila] PHP Notice:  Undefined index: id in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 266
+[09-Dec-2021 13:01:59 Asia/Manila] PHP Notice:  Undefined index: id in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 269
+[09-Dec-2021 13:01:59 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[09-Dec-2021 13:01:59 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[09-Dec-2021 16:48:34 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[09-Dec-2021 16:48:34 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/j9bw2kl8yrd9/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[19-Jan-2022 18:57:09 Asia/Manila] PHP Notice:  Undefined index: id in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 266
+[19-Jan-2022 18:57:09 Asia/Manila] PHP Notice:  Undefined index: id in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 269
+[19-Jan-2022 18:57:09 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[19-Jan-2022 18:57:09 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[20-Jan-2022 09:08:00 Asia/Manila] PHP Notice:  Undefined index: id in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 266
+[20-Jan-2022 09:08:00 Asia/Manila] PHP Notice:  Undefined index: id in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 269
+[20-Jan-2022 09:08:00 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[20-Jan-2022 09:08:00 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[27-Jan-2022 09:21:18 Asia/Manila] PHP Notice:  Undefined index: id in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 266
+[27-Jan-2022 09:21:18 Asia/Manila] PHP Notice:  Undefined index: id in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 269
+[27-Jan-2022 09:21:18 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[27-Jan-2022 09:21:18 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[29-Jan-2022 16:58:49 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[29-Jan-2022 16:58:49 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[29-Jan-2022 21:57:36 Asia/Manila] PHP Notice:  Undefined index: id in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 266
+[29-Jan-2022 21:57:36 Asia/Manila] PHP Notice:  Undefined index: id in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 269
+[29-Jan-2022 21:57:36 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[29-Jan-2022 21:57:36 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[30-Jan-2022 15:26:05 Asia/Manila] PHP Notice:  Undefined index: id in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 266
+[30-Jan-2022 15:26:05 Asia/Manila] PHP Notice:  Undefined index: id in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 269
+[30-Jan-2022 15:26:05 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[30-Jan-2022 15:26:05 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[02-Feb-2022 13:25:39 Asia/Manila] PHP Notice:  Undefined index: id in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 266
+[02-Feb-2022 13:25:39 Asia/Manila] PHP Notice:  Undefined index: id in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 269
+[02-Feb-2022 13:25:39 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[02-Feb-2022 13:25:39 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[02-Feb-2022 13:35:11 Asia/Manila] PHP Notice:  Undefined index: id in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 266
+[02-Feb-2022 13:35:11 Asia/Manila] PHP Notice:  Undefined index: id in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 269
+[02-Feb-2022 13:35:11 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[02-Feb-2022 13:35:11 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[02-Feb-2022 13:37:16 Asia/Manila] PHP Notice:  Undefined index: id in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 266
+[02-Feb-2022 13:37:16 Asia/Manila] PHP Notice:  Undefined index: id in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 269
+[02-Feb-2022 13:37:16 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[02-Feb-2022 13:37:16 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[02-Feb-2022 13:38:46 Asia/Manila] PHP Notice:  Undefined index: id in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 266
+[02-Feb-2022 13:38:46 Asia/Manila] PHP Notice:  Undefined index: id in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 269
+[02-Feb-2022 13:38:46 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[02-Feb-2022 13:38:46 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[02-Feb-2022 13:41:59 Asia/Manila] PHP Notice:  Undefined index: id in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 266
+[02-Feb-2022 13:41:59 Asia/Manila] PHP Notice:  Undefined index: id in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 269
+[02-Feb-2022 13:41:59 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[02-Feb-2022 13:41:59 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[02-Feb-2022 13:45:48 Asia/Manila] PHP Notice:  Undefined index: id in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 266
+[02-Feb-2022 13:45:48 Asia/Manila] PHP Notice:  Undefined index: id in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 269
+[02-Feb-2022 13:45:48 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[02-Feb-2022 13:45:48 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/ztlp7ch3f57z/public_html/loyaleadsta.com/auth/users/logout.php on line 273
+[14-Feb-2022 12:58:10 Asia/Manila] PHP Notice:  Undefined index: id in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 266
+[14-Feb-2022 12:58:10 Asia/Manila] PHP Notice:  Undefined index: id in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 269
+[14-Feb-2022 12:58:10 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 273
+[14-Feb-2022 12:58:10 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 273
+[19-Feb-2022 20:46:36 Asia/Manila] PHP Notice:  Undefined index: id in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 266
+[19-Feb-2022 20:46:36 Asia/Manila] PHP Notice:  Undefined index: id in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 269
+[19-Feb-2022 20:46:36 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 273
+[19-Feb-2022 20:46:36 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 273
+[25-Feb-2022 21:18:08 UTC] PHP Notice:  Undefined offset: 0 in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 19
+[25-Feb-2022 21:18:08 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 19
+[25-Feb-2022 21:18:08 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 19
+[25-Feb-2022 21:18:08 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 19
+[25-Feb-2022 21:18:08 UTC] PHP Notice:  Undefined offset: 0 in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 20
+[25-Feb-2022 21:18:08 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 20
+[25-Feb-2022 21:18:08 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 20
+[25-Feb-2022 21:18:08 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 20
+[25-Feb-2022 21:18:23 UTC] PHP Notice:  Undefined offset: 0 in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 19
+[25-Feb-2022 21:18:23 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 19
+[25-Feb-2022 21:18:23 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 19
+[25-Feb-2022 21:18:23 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 19
+[25-Feb-2022 21:18:23 UTC] PHP Notice:  Undefined offset: 0 in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 20
+[25-Feb-2022 21:18:23 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 20
+[25-Feb-2022 21:18:23 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 20
+[25-Feb-2022 21:18:23 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 20
+[25-Feb-2022 21:19:41 UTC] PHP Warning:  file_get_contents(//maps.googleapis.com/maps/api/geocode/json?address=Manila+Philippines&amp;sensor=false): failed to open stream: No such file or directory in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 10
+[25-Feb-2022 21:19:41 UTC] PHP Notice:  Trying to get property 'results' of non-object in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 13
+[25-Feb-2022 21:19:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 13
+[25-Feb-2022 21:19:41 UTC] PHP Notice:  Trying to get property 'geometry' of non-object in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 13
+[25-Feb-2022 21:19:41 UTC] PHP Notice:  Trying to get property 'location' of non-object in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 13
+[25-Feb-2022 21:19:41 UTC] PHP Notice:  Trying to get property 'lat' of non-object in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 13
+[25-Feb-2022 21:19:41 UTC] PHP Notice:  Trying to get property 'results' of non-object in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 14
+[25-Feb-2022 21:19:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 14
+[25-Feb-2022 21:19:41 UTC] PHP Notice:  Trying to get property 'geometry' of non-object in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 14
+[25-Feb-2022 21:19:41 UTC] PHP Notice:  Trying to get property 'location' of non-object in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 14
+[25-Feb-2022 21:19:41 UTC] PHP Notice:  Trying to get property 'lng' of non-object in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 14
+[26-Feb-2022 02:46:40 UTC] PHP Notice:  Undefined index: region in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 12
+[26-Feb-2022 02:51:57 UTC] PHP Notice:  Undefined index: region in /home/kkd4x2acswxa/public_html/auth/users/geotagging.php on line 12
+[28-Feb-2022 10:05:27 Asia/Manila] PHP Notice:  Undefined index: id in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 266
+[28-Feb-2022 10:05:27 Asia/Manila] PHP Notice:  Undefined index: id in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 269
+[28-Feb-2022 10:05:27 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 273
+[28-Feb-2022 10:05:27 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 273
+[07-Jun-2022 03:02:58 Asia/Manila] PHP Notice:  Undefined index: id in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 266
+[07-Jun-2022 03:02:58 Asia/Manila] PHP Notice:  Undefined index: id in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 269
+[07-Jun-2022 03:02:58 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 273
+[07-Jun-2022 03:02:58 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 273
+[13-Jun-2022 14:20:04 Asia/Manila] PHP Notice:  Undefined index: id in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 266
+[13-Jun-2022 14:20:04 Asia/Manila] PHP Notice:  Undefined index: id in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 269
+[13-Jun-2022 14:20:04 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 273
+[13-Jun-2022 14:20:04 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 273
+[13-Jun-2022 14:21:18 Asia/Manila] PHP Notice:  Undefined index: id in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 266
+[13-Jun-2022 14:21:18 Asia/Manila] PHP Notice:  Undefined index: id in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 269
+[13-Jun-2022 14:21:18 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 273
+[13-Jun-2022 14:21:18 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 273
+[13-Jun-2022 14:44:24 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 273
+[13-Jun-2022 14:44:24 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 273
+[13-Jun-2022 15:21:11 Asia/Manila] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 273
+[13-Jun-2022 15:21:11 Asia/Manila] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/kkd4x2acswxa/public_html/auth/users/logout.php on line 273

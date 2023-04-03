@@ -1,0 +1,700 @@
+<?php
+
+include 'includes/config.php';
+date_default_timezone_set("Asia/Manila"); 
+
+
+
+define('START_NIGHT_HOUR','22');
+define('START_NIGHT_MINUTE','00');
+define('START_NIGHT_SECOND','00');
+define('END_NIGHT_HOUR','06');
+define('END_NIGHT_MINUTE','00');
+define('END_NIGHT_SECOND','00');
+
+function night_difference($start_work,$end_work)
+{
+    $start_night = mktime(START_NIGHT_HOUR,START_NIGHT_MINUTE,START_NIGHT_SECOND,date('m',$start_work),date('d',$start_work),date('Y',$start_work));
+    $end_night   = mktime(END_NIGHT_HOUR,END_NIGHT_MINUTE,END_NIGHT_SECOND,date('m',$start_work),date('d',$start_work) + 1,date('Y',$start_work));
+
+    if($start_work >= $start_night && $start_work <= $end_night)
+    {
+        if($end_work >= $end_night)
+        {
+            return ($end_night - $start_work) / 60;
+        }
+        else
+        {
+            return ($end_work - $start_work) / 60;
+        }
+    }
+    elseif($end_work >= $start_night && $end_work <= $end_night)
+    {
+        if($start_work <= $start_night)
+        {
+            return ($end_work - $start_night) / 60;
+        }
+        else
+        {
+            return ($end_work - $start_work) / 60;
+        }
+    }
+    else
+    {
+        if($start_work < $start_night && $end_work > $end_night)
+        {
+            return ($end_night - $start_night) / 60;
+        }else{
+            
+                        return ($end_night - $start_night) / 60;
+            
+            
+        }
+  
+    }
+}
+
+
+		var_dump(night_difference(strtotime('today 19:00'),strtotime('tomorrow 05:30')));
+var_dump(night_difference(strtotime('today 00:00'),strtotime('today 04:00')));
+var_dump(night_difference(strtotime('yesterday 10:00'),strtotime('today 08:00')));
+var_dump(night_difference(strtotime('yesterday 23:00'),strtotime('today 04:00')));	    
+			    
+
+/*
+* Supported File Formats: .XLS | .XLS | .CSV  (Excel 1997-2007)
+* 
+* Table structure:
+* +---------+-----------+------------+
+* |   id    |   name    |    email   |
+* +---------+-----------+------------+
+* | int(11) | char(250) | char(300)  |
+* +----+----+-----------+------------+
+* #3c763d
+* #0cb313b3
+*/
+
+$connect = mysqli_connect("localhost", "multimax", "1234567a", "data_final1");
+$output = '';
+
+
+
+	 
+?>	
+
+
+
+			    
+<?php
+/*
+* Supported File Formats: .XLS | .XLS | .CSV  (Excel 1997-2007)
+* 
+* Table structure:
+* +---------+-----------+------------+
+* |   id    |   name    |    email   |
+* +---------+-----------+------------+
+* | int(11) | char(250) | char(300)  |
+* +----+----+-----------+------------+
+* #3c763d
+* #0cb313b3
+*/
+
+$connect = mysqli_connect("localhost", "multimax", "1234567a", "data_final1");
+$output = '';
+
+
+
+
+if(isset($_POST["Import"]))
+{
+    	session_start();
+							$sese=$_SESSION['id'];
+    
+    $queryfilter_1=mysqli_query($con,"select * from attendance where approved_by='$sese' and schedule_id='0'  ")or die(mysqli_error($con));
+$rowfilter_1=mysqli_num_rows($queryfilter_1);
+
+		if($rowfilter_1<=0){
+    
+    		$pic = $_FILES["excel"]["name"];
+    
+    
+
+    
+ $extension = end(explode(".", $_FILES["excel"]["name"])); // For getting Extension of selected file
+ $allowed_extension = array("xls", "xlsx", "csv"); //allowed extension
+ if(in_array($extension, $allowed_extension)) //check selected file extension is present in allowed extension array
+ {
+  $file = $_FILES["excel"]["tmp_name"]; // getting temporary source of excel file
+
+  include("PHPExcel/IOFactory.php"); // Add PHPExcel Library in this code
+  $objPHPExcel = PHPExcel_IOFactory::load($file); // create object of PHPExcel library by using load() method and in load method define path of selected file
+
+
+if (strpos($pic, 'DTR') !== false) {
+	$datenow=date("Y-m-d");
+	session_start();
+							$sese=$_SESSION['id'];
+							$date1_1=$_POST['date1'];
+									$date2_2=$_POST['date2'];
+									$client_id_2=$_POST['client_id'];
+									
+									
+									
+									$query1aass=mysqli_query($con,"select * from dtr_import where client_id='$client_id_2' and date1='$date1_1' and date2='$date2_2' and import_by='$sese' ")or die(mysqli_error($con));
+  $row1aass=mysqli_num_rows($query1aass);
+									
+								if($row1aass<=0){	
+					
+
+				$pic = $_FILES["excel"]["name"];
+				$type = $_FILES["excel"]["type"];
+				$size = $_FILES["excel"]["size"];
+				$temp = $_FILES["excel"]["tmp_name"];
+				$error = $_FILES["excel"]["error"];
+			$temp = explode(".", $_FILES["excel"]["name"]);
+$newfilename = round(microtime(true)) . '.' . end($temp);
+
+move_uploaded_file($_FILES["excel"]["tmp_name"], "upload_dtr/" . $newfilename);
+
+			
+						mysqli_query($con,"INSERT INTO dtr_import(date1,date2,file,date_added,client_id,import_by,cutoff) 
+					VALUES('$date1_1','$date2_2','$datenow','$newfilename','$client_id_2','$sese','$cutoff')")or die(mysqli_error($con));
+					
+					
+					
+								}else{
+								    
+								    	$pic = $_FILES["excel"]["name"];
+				$type = $_FILES["excel"]["type"];
+				$size = $_FILES["excel"]["size"];
+				$temp = $_FILES["excel"]["tmp_name"];
+				$error = $_FILES["excel"]["error"];
+			$temp = explode(".", $_FILES["excel"]["name"]);
+$newfilename = round(microtime(true)) . '.' . end($temp);
+
+move_uploaded_file($_FILES["excel"]["tmp_name"], "upload_dtr/" . $newfilename);
+  $ccc=date ('Y-m',strtotime($date1_1)); 
+  
+
+				  	mysqli_query($con,"update dtr_import set file='$newfilename',date_added='$datenow',cutoff='$ccc' where  client_id='$client_id_2' and date1='$date1_1' and date2='$date2_2' and import_by='$sese'   ")or die(mysqli_error());
+	   			  
+								}
+}
+
+  $output .= "<label class='text-success'>Data Added: </label><br /><table class='table table-bordered'>";
+  foreach ($objPHPExcel->getWorksheetIterator() as $worksheet)
+  {
+   $highestRow = $worksheet->getHighestRow();
+   for($row=2; $row<=$highestRow; $row++)
+   {
+if (strpos($pic, 'DTR') !== false) {
+    $emp=mysqli_real_escape_string($connect, $worksheet->getCellByColumnAndRow(0, $row)->getValue());
+    
+
+	if($emp!="EMPLOYEE ID" && $emp!=""){
+	    
+$time_ina11=mysqli_real_escape_string($connect, $worksheet->getCellByColumnAndRow(7, $row)->getValue());
+$break_start = \PHPExcel_Style_NumberFormat::toFormattedString($time_ina11, 'H:i');
+	    	
+$time_ina111=mysqli_real_escape_string($connect, $worksheet->getCellByColumnAndRow(8, $row)->getValue());
+$break_end = \PHPExcel_Style_NumberFormat::toFormattedString($time_ina111, 'H:i');
+
+$sched_date2 = mysqli_real_escape_string($connect, $worksheet->getCellByColumnAndRow(2, $row)->getValue());
+$sched_date3 = \PHPExcel_Style_NumberFormat::toFormattedString($sched_date2, 'Y-m-d');
+
+  $sched_date=date ('Y-m-d',strtotime($sched_date3));
+
+
+
+
+
+$sched_date2s = mysqli_real_escape_string($connect, $worksheet->getCellByColumnAndRow(10, $row)->getValue());
+$sched_date3s = \PHPExcel_Style_NumberFormat::toFormattedString($sched_date2s, 'Y-m-d');
+$sched_date_t=date ('Y-m-d',strtotime($sched_date3s));
+
+if($sched_date2s!=""){
+    $date_sched=$sched_date_t;
+}else{
+    
+     $date_sched=$sched_date;
+    
+}
+
+
+
+
+	
+$time_inas=mysqli_real_escape_string($connect, $worksheet->getCellByColumnAndRow(5, $row)->getValue());
+$timein_efs = \PHPExcel_Style_NumberFormat::toFormattedString($time_inas, 'H');
+$time_ina1s=mysqli_real_escape_string($connect, $worksheet->getCellByColumnAndRow(6, $row)->getValue());
+$timeout_es = \PHPExcel_Style_NumberFormat::toFormattedString($time_ina1s, 'H');
+if($timein_efs<=$timeout_es){
+$originalDate2a = mysqli_real_escape_string($connect, $worksheet->getCellByColumnAndRow(2, $row)->getValue());
+$dateout3 = \PHPExcel_Style_NumberFormat::toFormattedString($originalDate2a, 'Y-m-d');
+
+  $dateout=date ('Y-m-d',strtotime($dateout3));
+		}else{
+$originalDate2a = mysqli_real_escape_string($connect, $worksheet->getCellByColumnAndRow(2, $row)->getValue());
+$dateouts = \PHPExcel_Style_NumberFormat::toFormattedString($originalDate2a, 'Y-m-d');  
+
+
+if($sched_date2s!=""){
+$dateout3 = date('Y-m-d', strtotime($dateouts));
+}else{
+$dateout3 = date('Y-m-d', strtotime($dateouts . ' +1 day'));
+    
+}
+
+
+
+  $dateout=date ('Y-m-d',strtotime($dateout3));
+		}
+
+
+
+		
+$overtime=mysqli_real_escape_string($connect, $worksheet->getCellByColumnAndRow(9, $row)->getValue());
+session_start();
+$approved_overtime=mysqli_real_escape_string($connect, $worksheet->getCellByColumnAndRow(9, $row)->getValue())*60;
+$approved_by1=$_SESSION['id'];		
+
+$query2app=mysqli_query($con,"select * from employee where  id='$approved_by1'")or die(mysqli_error($con));
+$row2app=mysqli_fetch_array($query2app);
+$approved_by=$row2app['id'];
+$queryqq=mysqli_query($con,"select * from employee where employee_id='$emp' ")or die(mysqli_error($con));
+$rowqq=mysqli_fetch_array($queryqq);
+	  $id=$rowqq['id'];
+	  $client_id=$_POST['client_id'];
+      $location_id = $rowqq['location'];
+	  $dep_final=$row2dep['id'];
+	  $em_id=$rowqq['id'];
+	  $salary_type=$rowqq['salary_type'];
+$schedt1=mysqli_real_escape_string($connect, $worksheet->getCellByColumnAndRow(3, $row)->getValue());
+$schedt1s = \PHPExcel_Style_NumberFormat::toFormattedString($schedt1, 'H:i');
+$stime1=date ('H:i',strtotime($schedt1s));
+	$schedt2=mysqli_real_escape_string($connect, $worksheet->getCellByColumnAndRow(4, $row)->getValue());
+$schedt2s = \PHPExcel_Style_NumberFormat::toFormattedString($schedt2, 'H:i');
+  $stime2=date ('H:i',strtotime($schedt2s));  	
+
+	  
+	  
+if(strtotime($sched_date)>=1){
+
+$query1aas=mysqli_query($con,"select * from employee_schedule_final where employee_id='$emp' and date_month_day='$sched_date' and client_id='$client_id' and time_in='$stime1' ")or die(mysqli_error($con));
+  $row1aas=mysqli_fetch_array($query1aas);
+  $time_out_final=$row1aas['time_out'];
+  $time_in_final=$row1aas['time_in'];
+  $restday=$row1aas['type_day'];
+  
+
+  $type_pos=$row1aas['type_pos'];
+  $schedule_id=$row1aas['id'];
+	  $department2=$row1aas['department'];						
+
+	 if($department2>=1){
+	    $department=$department2; 
+	     
+	 }else{
+	    $department=$rowqq['department'];
+	     
+	 }
+
+$queryfilter=mysqli_query($con,"select * from attendance where employee_id='$em_id' and date_added='$sched_date' and client_id='$client_id' and sched_timein='$stime1'  ")or die(mysqli_error($con));
+$rowfilter=mysqli_num_rows($queryfilter);
+
+
+$queryfilter3=mysqli_query($con,"select * from attendance  where employee_id='$em_id' and date_added='$sched_date' and client_id='$client_id' and sched_timein='$stime1'   ")or die(mysqli_error($con));
+$count_final=mysqli_num_rows($queryfilter3);
+
+
+
+
+
+if($count_final<=0){
+ $final="WALA";   
+}else{
+    
+    $final="MERON";  
+}
+if($final=="WALA"){
+
+                 
+}
+
+				
+		$to_time=strtotime($sched_date." ".$break_start);
+		$from_time=strtotime($sched_date." ".$break_end);
+		$break_min=round(abs($to_time-$from_time)/60.2);
+	
+
+	  if($break_min<=0){
+/////  $min_break=$row1aas['min_break'];
+$min_break=0;
+  }else{
+	$min_break=$break_min;  
+	  
+  }
+  
+
+	  $queryshift=mysqli_query($con,"select * from work_shift where id='$shift'  ")or die(mysqli_error($con));
+  $rowshift=mysqli_fetch_array($queryshift);
+    $queryotra=mysqli_query($con,"select * from  holiday where date1='$sched_date' and client='0' || date1='$sched_date' and client='$client_id'")or die(mysqli_error($con));
+  $rowotra=mysqli_fetch_array($queryotra);
+
+  
+
+
+    $querytaxtable=mysqli_query($con,"select * from  taxtable where status='Active'")or die(mysqli_error($con));
+  $rowtax=mysqli_fetch_array($querytaxtable);
+
+
+  $tax_table=$rowtax['table_id'];
+
+
+if($restday=="Rest Day"){
+    $querytaxtable1=mysqli_query($con,"select * from  overtime_rate where name='Rest Day'")or die(mysqli_error($con));
+  $rowtax1=mysqli_fetch_array($querytaxtable1);
+    $table_name=$rowtax1['table_name'];
+  $ot_rate=$rowtax1['id'];
+}else{
+  $table_name=$rowotra['table_name'];
+if($rowotra['type']<=0){
+$ot_rate=1;
+}else{
+$ot_rate=$rowotra['type'];	
+	
+}
+}
+
+
+
+
+$minutessam = abs(strtotime("2021-02-01 23:00") - strtotime("2021-02-01 21:00") ) / 60;
+
+
+
+
+
+
+$schedt1i=mysqli_real_escape_string($connect, $worksheet->getCellByColumnAndRow(5, $row)->getValue());
+$schedt1si = \PHPExcel_Style_NumberFormat::toFormattedString($schedt1i, 'H:i');
+$timein=date ('H:i',strtotime($schedt1si));
+	$schedt2i=mysqli_real_escape_string($connect, $worksheet->getCellByColumnAndRow(6, $row)->getValue());
+$schedt2si = \PHPExcel_Style_NumberFormat::toFormattedString($schedt2i, 'H:i');
+  $timeout=date ('H:i',strtotime($schedt2si));
+  
+	$your_time=strtotime($date_sched." ".$timein);
+	$sched_time=strtotime($sched_date." ".$stime1);
+
+	if($your_time>=$sched_time){
+
+$minutes = abs(strtotime($date_sched." ".$timein) - strtotime($sched_date." ".$stime1) ) / 60;
+$ako="LATE AKO";
+	  
+
+    $late2=$minutes;
+
+
+
+
+
+}else{
+    
+    $maaga = abs(strtotime($sched_date." ".$stime1) - strtotime($date_sched." ".$timein) ) / 60;
+$ako="HINDI";
+
+    $maaga_p=$maaga;
+   $late2=0;
+}
+
+
+
+
+
+if(strtotime($dateout." ".$stime2)<strtotime($dateout." ".$timeout)){
+    
+
+$minutesundero = abs(strtotime($dateout." ".$stime2) - strtotime($dateout." ".$timeout) ) / 60; 
+
+
+$overtime=$minutesundero;
+
+}else{
+
+$overtime=0;
+    
+}
+
+
+
+
+if(strtotime($sched_date." ".$stime1)>strtotime($date_sched." ".$timein)){
+
+$minutesunderoe = abs(strtotime($sched_date." ".$stime1) - strtotime($date_sched." ".$timein) ) / 60; 
+
+if($minutesunderoe>=60){
+$advance_overtime=$minutesunderoe;
+    $early=0;
+}else{
+   $advance_overtime=0; 
+    $early=$minutesunderoe;
+}
+
+
+
+
+}else{
+
+$early=0;
+     $advance_overtime=0; 
+}
+
+	 if(strtotime($sched_date." ".$stime2)>strtotime($dateout." ".$timeout)){
+
+$minutesunder = abs(strtotime($sched_date." ".$stime2) - strtotime($dateout." ".$timeout) ) / 60; 
+
+
+$undertime=$minutesunder;
+
+
+}else{
+
+$undertime=0;  
+    
+} 
+
+
+
+	    
+$minutehour = abs(strtotime($date_sched." ".$timein) - strtotime($dateout." ".$timeout) ) / 60; 
+$hour_final=$minutehour;
+
+
+
+$night1=$timein;
+$night2=$timeout;
+
+
+
+$count=0;
+$start = strtotime($date_sched." ".$timein); 
+$end = strtotime($dateout." ".$timeout); 
+$range = array();
+
+$date = strtotime("-1 hour", $start);  
+while($date < $end)  { 
+   $date = strtotime("+1 hour", $date);
+   $range = date('H', $date);
+   
+   
+   if($range=="23" || $range=="00" || $range=="01" || $range=="02" || $range=="03" || $range=="04" || $range=="05" || $range=="06"){
+
+   $count++;
+   }
+   
+
+} 
+
+
+if($advance_overtime>=1 || $approve_overtime>=1){
+$count2=0;
+$start2 = strtotime($date_sched." ".$timein); 
+$end2 = strtotime($dateout." ".$timeout); 
+$range2 = array();
+
+$date2 = strtotime("-1 hour", $start2);  
+while($date2 < $end2)  { 
+   $date2 = strtotime("+1 hour", $date2);
+   $range2 = date('H', $date2);
+   
+   
+   if($range2=="23" || $range2=="00" || $range2=="01" || $range2=="02" || $range2=="03" || $range2=="04" || $range2=="05" || $range2=="06"){
+
+   $count2++;
+   }
+   
+
+} 
+
+
+}else{
+    
+   $count2=0; 
+    
+}
+$night_diff_ot=$count2*60;
+      $night_diff2=$count*60;
+      
+            $night_diff=$night_diff2-$advance_overtime;;
+						    	
+///echo $sample;
+////echo "<br>";
+$night_final_ot=$advance_overtime+$overtime;
+
+
+if($ako=="HINDI"){
+    $late=0;
+}else{
+        $late=$late2;
+    
+}
+
+			mysqli_query($con,"update employee_schedule_final set status='Present' where employee_id='$emp' and date_month_day='$sched_date' and time_in='$timein'  ")or die(mysqli_error());
+
+					
+							$datedate=date("Y-m-d");
+							
+	$restday=$row1aas['type_day'];   
+
+							
+						    		if($restday=="RESTDAY"){
+						    		    
+      if($emp>=1){
+  
+								    if($rowfilter<=0){
+
+						    	if($count_final<=0){
+						    	
+	 
+					
+mysqli_query($con,"INSERT INTO attendance(advance_overtime,early,sched_timein,department,schedule_id,type_pos,date_imported,break_min,break_start,break_end,restday_hrs,restday_ot_hrs,restday_nd_hrs,restday_nd_ot,approved_overtime,location_id,approved_by,night_diff_ot,tax_table,ot_rate_table,sss,pagibig,philhealth,salary_type,basic,ot_rate,under_time,shift,date_out,night_diff,status_overtime,employee_id,client_id,time_in,time_out,date_added,minute_late,overtime,employee_details_id,totalhour) 
+VALUES('$advance_overtime','$early','$stime1','$department','$schedule_id','$type_pos','$datedate','$min_break','$break_start','$break_end','$hour_final','$overtime','$night_diff','$night_final_ot','$approved_overtime','$location_id','$approved_by','0','$tax_table','$table_name','$sss','$pagibig','$philhealth','$salary_type','$basic','$ot_rate','$undertime','$shift1','$dateout','0','$status_overtime','$em_id','$client_id','$timein','$timeout','$sched_date','$late','0','$employee_details_id','$hour_final')")or die(mysqli_error($con));
+								  
+								  
+						    	}
+								  
+								  
+								  }else{
+								        
+	mysqli_query($con,"update attendance set department='$department',advance_overtime='$advance_overtime',early='$early',sched_timein='$stime1',type_pos='$type_pos',break_min='$min_break',break_start='$break_start',break_end='$break_end',restday_hrs='$hour_final',restday_ot_hrs='$hour_finalaaaa',restday_nd_hrs='$night_diff',restday_nd_ot='0'
+,approved_overtime='$approved_overtime',location_id='$location_id',approved_by='$approved_by',night_diff_ot='0',tax_table='$tax_table',ot_rate_table='$table_name',sss='$sss',pagibig='$pagibig',philhealth='$philhealth',salary_type='$salary_type',basic='$basic',ot_rate='$ot_rate',under_time='$undertime',shift='$shift1',date_out='$dateout',night_diff='0',status_overtime='$status_overtime',employee_id='$em_id',client_id='$client_id',time_in='$timein',time_out='$timeout',date_added='$sched_date',minute_late='$late',overtime='0',totalhour='0' where  schedule_id='$schedule_id'   ")or die(mysqli_error());
+	   
+								        
+								    }
+								    
+								    
+								    
+								    
+								    
+								    
+          
+      }
+						    		}else{
+						    		    
+						    		    
+						    		    
+						    		    
+						    		    if($emp>=1){
+						    		        						    	
+						    		               
+						    		               
+						    		    if($rowfilter<=0){
+						    		    
+		
+						    
+						    
+						    
+						    
+						    	  	if($count_final<=0){
+		 
+
+						    		    
+mysqli_query($con,"INSERT INTO attendance(advance_overtime,early,sched_timein,department,schedule_id,type_pos,date_imported,break_min,break_start,break_end,approved_overtime,location_id,approved_by,night_diff_ot,tax_table,ot_rate_table,sss,pagibig,philhealth,salary_type,basic,ot_rate,under_time,shift,date_out,night_diff,status_overtime,employee_id,client_id,time_in,time_out,date_added,minute_late,overtime,employee_details_id,totalhour) 
+	VALUES('$advance_overtime','$early','$stime1','$department','$schedule_id','$type_pos','$datedate','$min_break','$break_start','$break_end','$approved_overtime','$location_id','$approved_by','$night_final_ot','$tax_table','$table_name','$sss','$pagibig','$philhealth','$salary_type','$basic','$ot_rate','$undertime','$shift1','$dateout','$night_diff','$status_overtime','$em_id','$client_id','$timein','$timeout','$sched_date','$late','$overtime','$employee_details_id','$hour_final')")or die(mysqli_error($con));
+					    
+						    	  	}      
+						    		        
+						    		        
+						    		    }else{
+						    		        
+						    		        
+
+			mysqli_query($con,"update attendance set department='$department',advance_overtime='$advance_overtime',early='$early',sched_timein='$stime1',type_pos='$type_pos',break_min='$min_break',break_start='$break_start',break_end='$break_end',approved_overtime='$approved_overtime',location_id='$location_id',approved_by='$approved_by',night_diff_ot='$night_final_ot',tax_table='$tax_table',ot_rate_table='$table_name',sss='$sss',pagibig='$pagibig',philhealth='$philhealth',
+salary_type='$salary_type',basic='$basic',ot_rate='$ot_rate',under_time='$undertime',shift='$shift1',date_out='$dateout',night_diff='$night_diff',status_overtime='$status_overtime',time_in='$timein',time_out='$timeout',date_added='$sched_date',
+	minute_late='$late',overtime='$overtime',totalhour='$hour_final' where  schedule_id='$schedule_id'   ")or die(mysqli_error());
+						
+		   
+						    		        
+						    		    }
+						    		    
+						    		    
+						    		    
+						    		    
+						    		    
+						    		    
+						    		    
+					
+						    		           }
+						    		           
+						    		           
+						    		           
+						    		           
+						    		           
+						    		           
+						    		    
+						    		    
+						    		    
+						    		    
+						    		    
+						    		}
+
+
+	    
+	}
+	}
+		
+		////	mysqli_query($con,"update employee_schedule_final set status='Present' where employee_id='$em_number' and date_month_day='$date_filter' and time_in='$timein_effs'  ")or die(mysqli_error());
+							
+							
+							
+				
+
+							
+							
+			
+							
+////	mysqli_query($con,"INSERT INTO attendance(type_pos,date_imported,break_min,break_start,break_end,restday_hrs,restday_ot_hrs,restday_nd_hrs,restday_nd_ot,approved_overtime,location_id,approved_by,night_diff_ot,tax_table,ot_rate_table,sss,pagibig,philhealth,salary_type,basic,ot_rate,under_time,shift,date_out,night_diff,status_overtime,employee_id,client_id,time_in,time_out,date_added,minute_late,overtime,employee_details_id,totalhour) 
+/////	VALUES('$type_pos','$datedate','$break_min','$break_start','$break_end','$hour_final','$hour_finalaaaa','$night_diff','$night_diff_ot','$ot_final','$location_id','$approved_by','$night_diff_ot','$tax_table','$table_name','$sss','$pagibig','$philhealth','$salary_type','$basic','$ot_rate','$final_un_min1','$shift1','$date_time_out','$night_diff','$status_overtime','$em_id','$client_id','$ti','$ti2','$date_filter','$minute_late1','$ot_final','$employee_details_id','$hour_final')")or die(mysqli_error($con));
+					
+			
+				////	mysqli_query($con,"INSERT INTO attendance(schedule_id,type_pos,date_imported,break_min,break_start,break_end,approved_overtime,location_id,approved_by,night_diff_ot,tax_table,ot_rate_table,sss,pagibig,philhealth,salary_type,basic,ot_rate,under_time,shift,date_out,night_diff,status_overtime,employee_id,client_id,time_in,time_out,date_added,minute_late,overtime,employee_details_id,totalhour) 
+				/////	VALUES('$schedule_id','$type_pos','$datedate','$break_min','$break_start','$break_end','$ot_final','$location_id','$approved_by','$night_diff_ot','$tax_table','$table_name','$sss','$pagibig','$philhealth','$salary_type','$basic','$ot_rate','$final_un_min1','$shift1','$date_time_out','$night_diff','$status_overtime','$em_id','$client_id','$ti','$ti2','$date_filter','$minute_late1','$ot_final','$employee_details_id','$hour_final')")or die(mysqli_error($con));
+				   
+						    		    
+					
+				
+				
+		
+		
+////echo "<script type=\"text/javascript\">alert(\"Successfully Imported!\");
+////window.location = \"import_attendance.php\"
+////</script>"; 	
+					
+
+
+
+}else{
+echo "<script type=\"text/javascript\">
+	alert(\"Incorrect File!\");
+	window.location = \"import_attendance.php\"
+	</script>"; 
+    
+}
+}
+}
+}
+}else{
+    
+ echo "<script type=\"text/javascript\">
+	alert(\"You need to fix first the error before reuploading DTR!\");
+	window.location = \"import_attendance.php\"
+	</script>";  
+    
+}
+
+
+
+
+}
+			    
+?>

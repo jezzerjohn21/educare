@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>POS_SidePanel</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/fontawesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+		
+		<style id="applicationStylesheet" type="text/css">
+			@font-face {
+				font-family: "Inter-SemiBold";
+				src: url("./Inter-SemiBold.ttf");
+			}
+			@font-face {
+				font-family: "Inter-Regular";
+				src: url("./Inter-Regular.ttf");
+			}
+			.mediaViewInfo {
+				--web-view-name: POS_SidePanel;
+				--web-view-id: POS_SidePanel;
+				--web-scale-on-resize: true;
+				--web-enable-deep-linking: true;
+			}
+			:root {
+				--web-view-ids: POS_SidePanel;
+			}
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				border: none;
+			}
+			#POS_SidePanel {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(246,255,246,1);
+				overflow-y: auto;
+				overflow-x: hidden;
+				--web-view-name: POS_SidePanel;
+				--web-view-id: POS_SidePanel;
+				--web-scale-on-resize: true;
+				--web-enable-deep-linking: true;
+			}
+			#Rectangle_1637_ {
+				fill: url(#Rectangle_1637_);
+			}
+			.Rectangle_1637_ {
+				width: 100%;
+				height: 100px;
+			}
+			#Orders {
+				left: 0;
+				right: 0;
+				top: 6%;
+				margin: 0 auto;
+				position: absolute;
+				overflow: visible;
+				width: 81px;
+				white-space: nowrap;
+				line-height: 33px;
+				margin-top: -4.5px;
+				text-align: center;
+				font-family: Inter;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 24px;
+				color: rgba(255,255,255,1);
+			}
+			#Group_1886 {
+				position: absolute;
+				width: 414px;
+				height: 49px;
+				left: 0px;
+				top: 0px;
+				display: none;
+				overflow: visible;
+			}
+			
+			#Component_621__30 {
+				position: absolute;
+				width: 45px;
+				height: 44px;
+				left: 4%;
+				top: 4%;
+				overflow: visible;
+			}
+			#Rectangle_1818 {
+				fill: rgba(2,106,37,1);
+			}
+			.Rectangle_1818 {
+				position: absolute;
+				overflow: visible;
+				width: 45px;
+				height: 44px;
+				/* left: 0px;
+				top: 0px; */
+				left: -12%;
+				top: 2px;
+			}
+			.col-lg,
+			.col-lg-auto,
+			.col-lg-12,
+			.col-lg-11,
+			.col-lg-10,
+			.col-lg-9,
+			.col-lg-8,
+			.col-lg-7,
+			.col-lg-6,
+			.col-lg-5,
+			.col-lg-4,
+			.col-lg-3,
+			.col-lg-2,
+			.col-lg-1,
+			.col-sm,
+			.col-sm-auto,
+			.col-sm-12,
+			.col-sm-11,
+			.col-sm-10,
+			.col-sm-9,
+			.col-sm-8,
+			.col-sm-7,
+			.col-sm-6,
+			.col-sm-5,
+			.col-sm-4,
+			.col-sm-3,
+			.col-sm-2,
+			.col-sm-1,
+			.col,
+			.col-auto,
+			.col-12,
+			.col-11,
+			.col-10,
+			.col-9,
+			.col-8,
+			.col-7,
+			.col-6,
+			.col-5,
+			.col-4,
+			.col-3,
+			.col-2,
+			.col-1 {
+				position: relative;
+				width: 100%;
+				padding-right: 15px;
+				padding-left: 15px;
+			}
+			.row {
+				display: flex;
+				flex-wrap: wrap;
+				margin-right: -15px;
+				margin-left: -15px;
+			}
+			.col-auto {
+				flex: 0 0 auto;
+				width: auto;
+				max-width: 100%;
+			}
+			.col-1 {
+				flex: 0 0 8.3333333333%;
+				max-width: 8.3333333333%;
+			}
+			.col-2 {
+				flex: 0 0 16.6666666667%;
+				max-width: 16.6666666667%;
+			}
+			.col-3 {
+				flex: 0 0 25%;
+				max-width: 25%;
+			}
+			.col-4 {
+				flex: 0 0 33.3333333333%;
+				max-width: 33.3333333333%;
+			}
+			.col-5 {
+				flex: 0 0 41.6666666667%;
+				max-width: 41.6666666667%;
+			}
+			.col-6 {
+				flex: 0 0 50%;
+				max-width: 50%;
+			}
+			.col-7 {
+				flex: 0 0 58.3333333333%;
+				max-width: 58.3333333333%;
+			}
+			.col-8 {
+				flex: 0 0 66.6666666667%;
+				max-width: 66.6666666667%;
+			}
+			.col-9 {
+				flex: 0 0 75%;
+				max-width: 75%;
+			}
+			.col-10 {
+				flex: 0 0 83.3333333333%;
+				max-width: 83.3333333333%;
+			}
+			.col-11 {
+				flex: 0 0 91.6666666667%;
+				max-width: 91.6666666667%;
+			}
+			.col-12 {
+				flex: 0 0 100%;
+				max-width: 100%;
+			}
+			.d-block {
+				display: block;
+			}
+			nav {
+				position: absolute;
+				top: 6%;
+				left: 4%;
+			}
+			#menuToggle {
+				display: block;
+				position: relative;
+				top: 4%;
+				left: 4%;
+				z-index: 1;
+				-webkit-user-select: none;
+				user-select: none;
+			}
+			#menuToggle a {
+				text-decoration: none;
+				color: #232323;
+				
+				transition: color 0.3s ease;
+			}
+
+			/* #menuToggle a:hover {
+				color: tomato;
+			} */
+
+			#menuToggle input {
+				display: block;
+				width: 40px;
+				height: 32px;
+				position: absolute;
+				top: -7px;
+				left: -5px;
+				cursor: pointer;
+				opacity: 0; /* hide this */
+				z-index: 2; /* and place it over the hamburger */
+				-webkit-touch-callout: none;
+			}
+
+			#menuToggle span {
+				display: block;
+				width: 33px;
+				height: 4px;
+				margin-bottom: 5px;
+				position: relative;
+				background: rgba(255,255,255,1);
+				border-radius: 3px;
+				z-index: 1;
+				transform-origin: 4px 0px;
+				transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+							background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+							opacity 0.55s ease;
+			}
+
+			#menuToggle span:first-child {
+				transform-origin: 0% 0%;
+			}
+
+			#menuToggle span:nth-last-child(2) {
+			 	transform-origin: 0% 100%;
+			}
+
+			#menuToggle input:checked ~ span {
+				opacity: 1;
+				transform: rotate(45deg) translate(3px, -3px);
+				background: rgba(255,255,255,1);
+			}
+
+			#menuToggle input:checked ~ span:nth-last-child(3) {
+				opacity: 0;
+				transform: rotate(0deg) scale(0.2, 0.2);
+			}
+
+			#menuToggle input:checked ~ span:nth-last-child(2) {
+				 transform: rotate(-45deg) translate(3px, 5px);
+			}
+
+			#menu {
+				position: absolute;
+				width: 350px;
+				height: auto;
+				margin: 33px 0 0 -54px;
+				/* padding-top: 2rem; */
+				padding-bottom: 50px;
+				background: white;
+				list-style-type: none;
+				-webkit-font-smoothing: antialiased;
+				box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+				transform-origin: 0% 0%;
+				transform: translate(-100%, 0);
+				transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+			}
+
+			#menu li {
+				padding: 10px 2.5rem;
+				font-size: 20px;
+				font-family: "Inter-SemiBold";
+				margin-bottom: .5rem;
+			}
+
+			#menu li i {
+				color: rgba(4,115,41,1);
+				font-size: 17px;
+			}
+
+			#menuToggle input:checked ~ ul {
+				transform: none;
+			}
+
+			.nav ul ul ul {
+				top: 0;
+				left: 160px; /* same value with line 28 */
+			}
+
+			#menu li label {
+				cursor: pointer;
+			}
+
+			#menu input {
+				display: none;
+			}
+
+			#menu :checked+.submenu {
+				display: block;
+				max-height: 200px;
+				margin-top: 1rem;
+			}
+
+			#menu .submenu {
+				list-style: none;
+			} 
+
+			.submenu {
+				overflow: hidden;
+				max-height: 0;
+				-webkit-transition: all 0.5s ease-out;
+			}
+
+			.submenu li {
+				margin-bottom: 0 !important;
+			}
+
+			.pb-0 {
+				padding-bottom: 0 !important;
+			}
+			.user-info-container {
+				padding: 2rem 2.5rem;
+			}
+
+			.next-list {
+				border-top: 2px solid rgba(211,211,211,1);
+				margin-top: 2rem;
+				margin-bottom: 2rem;
+			}
+			.user-img {
+				border-radius: 50%;
+				width: 60px;
+			}
+			.sidebar-username {
+				padding-top: 4px;
+				font-size: 22px;
+				font-family: "Inter-SemiBold";
+			}
+			.sidebar-my-account {
+				font-size: 17px;
+				font-family: "Inter-Regular";
+			}
+
+			/* tablet */
+			@media (min-width: 760px) and (max-width: 1023px) {
+				#menu {
+					margin: 39px 0 0 -54px !important;
+				}
+				#menu li {
+					padding: 10px 3.5rem;
+				}
+				.user-info-container {
+					padding: 2rem 3.5rem;
+				}
+			}
+
+			/* phones */
+			@media (max-width: 575px){
+				#menu {
+					width: 310px !important;
+				    margin: 33px 0 0 -14px !important;
+				}
+				.user-info-container {
+					padding: 2rem 1.5rem !important;
+				}
+				#menu li {
+					padding: 10px 2rem;
+				}
+			}
+			
+		</style>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="POS_SidePanel">
+
+			<svg class="Rectangle_1637_">
+				<linearGradient id="Rectangle_1637_" spreadMethod="pad" x1="0.566" x2="0.318" y1="-0.311" y2="1.587">
+					<stop offset="0" stop-color="#7db434" stop-opacity="1"></stop>
+					<stop offset="1" stop-color="#00853f" stop-opacity="1"></stop>
+				</linearGradient>
+				<rect id="Rectangle_1637_" rx="0" ry="0" x="0" y="0" width="100%" height="119">
+				</rect>
+			</svg>
+
+			<div id="Orders">
+				<span>Orders</span>
+			</div>
+			
+			<div id="Component_621__30" class="Component_621___30">
+				<svg class="Rectangle_1818">
+					<rect id="Rectangle_1818" rx="7" ry="7" x="0" y="0" width="45" height="44">
+					</rect>
+				</svg>
+			</div>
+
+			<nav class="nav" role="navigation">
+				<div id="menuToggle">
+				
+					<input type="checkbox" />
+					
+					<span></span>
+					<span></span>
+					<span></span>
+
+					<ul id="menu">
+
+						<div class="user-info-container">
+							<div class="row">
+								<div class="col-3">
+									<img src="./user-icon.png" class="user-img" alt="user image">
+								</div>
+								<div class="col-9">
+									<p class="sidebar-username d-block">Nikki</p>
+									<p class="sidebar-my-account d-block">My Account</p>
+								</div>
+							</div>
+						</div>
+
+						<a href="#"><li> <i class="fa fa-tachometer-alt"></i> &ensp; Dashboard</li></a>
+						<a href="#"><li> <i class="fa fa-money-check-alt"></i> &nbsp; Billing</li></a>
+						<a href="#"><li> <i class="fa fa-receipt"></i> &ensp; Transactions</li></a>
+						<li > 
+							<label for="products"> <i class="fa fa-box"></i> &ensp; Inventory </label><input type="checkbox" id="products">
+							<ul class="submenu">
+								<a href="#"><li> POS Transactions</li></a>
+								<a href="#"><li class="pb-0"> CRM Transactions</li></a>
+							</ul>
+						</li>
+						<a href="#"><li> <i class="fa fa-tag"></i> &ensp; Discounts</li></a>
+						<a href="#"><li> <i class="fa fa-money-bill"></i> &nbsp; Payments</li></a>
+						<a href="#"><li> <i class="fa fa-clipboard-list"></i> &ensp; Quotations</li></a>
+						<a href="#"><li> <i class="fa fa-truck"></i> &nbsp; Bookings</li></a>
+						<a href="#"><li> <i class="fa fa-award"></i> &ensp; Incentives</li></a>
+
+						<div class="next-list"></div>
+						
+						<a href="#"><li> <i class="fa fa-history"></i> &ensp; Logs</li></a>
+						<a href="#"><li> <i class="fa fa-cog"></i> &ensp; Support</li></a>
+						
+					</ul>
+
+				</div>
+			</nav>
+
+		</div>
+	</body>
+</html>
